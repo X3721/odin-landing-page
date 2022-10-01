@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 8px;
+}
+
+.header.logo {
+    padding-left: 100px;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.header.logo a {
+    color: #f9faf8;
+}
+
+.header.links {
+    padding-right: 100px;
+    margin-left: auto;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.header.links a {
+    color: #e5e7eb;
+}
+
+.header a {
+    text-decoration: none;
+}
