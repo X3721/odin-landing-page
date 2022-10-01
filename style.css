@@ -1,7 +1,7 @@
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Roboto', arial;
 }
 
 .container {
@@ -39,4 +39,40 @@ body {
 
 .header a {
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    background-color: #1F2937;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    width: 500px;
+    height: 350px;
+    background-color: aqua;
+    flex-shrink: 0;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
